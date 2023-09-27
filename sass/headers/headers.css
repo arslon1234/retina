@@ -1,3 +1,38 @@
-h1 {
-  color: green;
+.box {
+  width: 600px;
+  height: 400px;
+  background-color: green;
+  margin: 40px auto;
+}
+
+@media (max-width: 447px) {
+  .box {
+    width: 90%;
+    background-color: crimson;
+  }
+}
+@media (min-width: 448px) and (max-width: 769px) {
+  .box {
+    width: 80%;
+    background-color: yellowgreen;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 770px) and (max-width: 990px) {
+  .box {
+    width: 90%;
+    background-color: blue;
+  }
+}
+@media (min-width: 990px) and (max-width: 1200px) {
+  .box {
+    width: 70%;
+    background-color: aqua;
+  }
+}
+@media (min-width: 1201px) {
+  .box {
+    width: 90%;
+    background-color: blueviolet;
+  }
 }/*# sourceMappingURL=headers.css.map */
